@@ -1,0 +1,17 @@
+C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Infrastructure\bin\Debug\net6.0\BuberDinner.Infrastructure.deps.json
+C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Infrastructure\bin\Debug\net6.0\BuberDinner.Infrastructure.dll
+C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Infrastructure\bin\Debug\net6.0\ref\BuberDinner.Infrastructure.dll
+C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Infrastructure\bin\Debug\net6.0\BuberDinner.Infrastructure.pdb
+C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Infrastructure\obj\Debug\net6.0\BuberDinner.Infrastructure.csproj.AssemblyReference.cache
+C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Infrastructure\obj\Debug\net6.0\BuberDinner.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Infrastructure\obj\Debug\net6.0\BuberDinner.Infrastructure.AssemblyInfoInputs.cache
+C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Infrastructure\obj\Debug\net6.0\BuberDinner.Infrastructure.AssemblyInfo.cs
+C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Infrastructure\obj\Debug\net6.0\BuberDinner.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Infrastructure\obj\Debug\net6.0\BuberDinner.Infrastructure.dll
+C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Infrastructure\obj\Debug\net6.0\ref\BuberDinner.Infrastructure.dll
+C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Infrastructure\obj\Debug\net6.0\BuberDinner.Infrastructure.pdb
+C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Infrastructure\bin\Debug\net6.0\BuberDinner.Application.dll
+C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Infrastructure\bin\Debug\net6.0\BuberDinner.Domain.dll
+C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Infrastructure\bin\Debug\net6.0\BuberDinner.Application.pdb
+C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Infrastructure\bin\Debug\net6.0\BuberDinner.Domain.pdb
+C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Infrastructure\obj\Debug\net6.0\BuberDinner.Infrastructure.csproj.CopyComplete
