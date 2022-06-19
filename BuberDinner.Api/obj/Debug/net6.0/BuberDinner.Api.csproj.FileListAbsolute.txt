@@ -28,3 +28,9 @@ C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\
 C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\BuberDinner.Application.pdb
 C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\BuberDinner.Infrastructure.pdb
 C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\BuberDinner.Domain.pdb
+C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Api\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll

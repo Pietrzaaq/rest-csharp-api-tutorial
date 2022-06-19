@@ -9,3 +9,4 @@ C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Contratcs\obj\Debug\n
 C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Contratcs\obj\Debug\net6.0\BuberDinner.Contratcs.dll
 C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Contratcs\obj\Debug\net6.0\ref\BuberDinner.Contratcs.dll
 C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Contratcs\obj\Debug\net6.0\BuberDinner.Contratcs.pdb
+C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Contratcs\obj\Debug\net6.0\BuberDinner.Contratcs.csproj.AssemblyReference.cache

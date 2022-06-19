@@ -9,3 +9,4 @@ C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Domain\obj\Debug\net6
 C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Domain\obj\Debug\net6.0\BuberDinner.Domain.dll
 C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Domain\obj\Debug\net6.0\ref\BuberDinner.Domain.dll
 C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Domain\obj\Debug\net6.0\BuberDinner.Domain.pdb
+C:\Nauka\C#_All_around\C# REST API\BuberDinner\BuberDinner.Domain\obj\Debug\net6.0\BuberDinner.Domain.csproj.AssemblyReference.cache
