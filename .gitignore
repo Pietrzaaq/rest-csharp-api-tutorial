@@ -2,6 +2,9 @@
 .obj\*
 .vscode\*
 
+bin
+obj
+
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
