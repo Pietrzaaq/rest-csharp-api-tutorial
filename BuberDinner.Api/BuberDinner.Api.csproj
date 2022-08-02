@@ -13,4 +13,8 @@
     <ProjectReference Include="..\BuberDinner.Infrastructure\BuberDinner.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="fluentResults" Version="3.8.0" />
+  </ItemGroup>
+
 </Project>
