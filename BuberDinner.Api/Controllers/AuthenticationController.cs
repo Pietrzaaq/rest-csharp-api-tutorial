@@ -1,14 +1,15 @@
 using BuberDinner.Contracts.Authentication;
 using BuberDinner.Application.Services.Authentication;
 using Microsoft.AspNetCore.Mvc;
-using BuberDinner.Application.Common.Errors;
+using BuberDinner.Domain.Common.Errors;
 using FluentResults;
+using ErrorOr;
 
 namespace BuberDinner.Api.Controllers;
 
 [ApiController]
 [Route("auth")]
-public class AuthenticationController : ControllerBase
+public class AuthenticationController : ApiController
 {
     private readonly IAuthenticationService _authenticationService;
 
@@ -20,25 +21,35 @@ public class AuthenticationController : ControllerBase
     [HttpPost("register")]
     public IActionResult Register(RegisterRequest request)
     {
-        Result<AuthenticationResult> registerResult = _authenticationService.Register(
+        ErrorOr<AuthenticationResult> registerResult = _authenticationService.Register(
             request.FirstName, 
             request.LastName,
             request.Email,
             request.Password);
 
-        if (registerResult.IsSuccess)
+        return registerResult.Match(
+            registerResult => Ok(MapAuthResult(registerResult)),
+            errors => Problem(errors));
+    }
+
+    [HttpPost("login")]
+    public IActionResult Login(LoginRequest request)
+    {
+        var authResult = _authenticationService.Login(
+            request.Email,
+            request.Password);
+
+        if (authResult.IsError && authResult.FirstError == Errors.Authentication.InvalidCredentials)
         {
-            return Ok(MapAuthResult(registerResult.Value));
+            return Problem(
+                statusCode: StatusCodes.Status401Unauthorized,
+                detail: authResult.FirstError.Description
+            );
         }
 
-        var firstError = registerResult.Errors[0];
-
-        if(firstError is DuplicateEmailError)
-        {
-            return Problem(statusCode: StatusCodes.Status409Conflict, title: "Email already exists");
-        }
-
-        return Problem();
+        return authResult.Match(
+            authResult => Ok(MapAuthResult(authResult)),
+            errors => Problem(errors));
     }
 
     private static AuthenticationResponse MapAuthResult(AuthenticationResult authResult)
@@ -49,23 +60,6 @@ public class AuthenticationController : ControllerBase
             authResult.User.LastName,
             authResult.User.Email,
             authResult.Token);
-    }
-
-    [HttpPost("login")]
-    public IActionResult Login(LoginRequest request)
-    {
-        var authResult = _authenticationService.Login(
-            request.Email,
-            request.Password);
-
-        var resonse = new AuthenticationResponse(
-            authResult.User.Id,
-            authResult.User.FirstName,
-            authResult.User.LastName,
-            authResult.User.Email,
-            authResult.Token);
-
-        return Ok(resonse);
     }
 
 }
